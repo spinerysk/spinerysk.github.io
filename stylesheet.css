@@ -1,6 +1,10 @@
 .title {
   color: #ffffff;
   font-size: 50px;
-  font-family: "Noto Sans";
+  font-family: Lato;
   background-color: #000000;
+}
+
+body {
+  font-family: Lato;
 }
