@@ -6,3 +6,16 @@
   }
 
 }
+
+@media (max-width: 670px) {
+  /* .lessonのwidthを100%に指定してください */
+  .lesson {
+    width: 100%;
+  }
+
+  /* <footer>の中身を中央寄せにしてください。 */
+  footer {
+    text-align: center;
+  }
+
+}
