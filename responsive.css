@@ -1,0 +1,8 @@
+@media (max-width: 1000px) {
+  /* lessonクラスのCSSを指定してください */
+  .lesson {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
+}
