@@ -1,3 +1,7 @@
+*{
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: "Hiragino Kaku Gothic ProN";
@@ -9,7 +13,7 @@ a {
 
 /* containerクラスのCSSを指定してください */
 .container {
-  width: 1170px;
+  width: 100%;
   padding: 0px 15px;
   margin: 0 auto;
 }
@@ -20,6 +24,7 @@ a {
   padding-top: 500px;
   padding-bottom: 1000px;
   background-image: url(dark-environment-fall-2303132.jpg);
+
   background-size: cover;
   color: white;
   text-align: center;
@@ -87,6 +92,9 @@ header {
   height: 65px;
   width: 100%;
   background-color: rgba(34, 49, 52, 0.9);
+  position: fixed;
+  top: 0;
+  z-index: 0;
 }
 
 
