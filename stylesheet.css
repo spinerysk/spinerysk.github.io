@@ -1,1 +1,19 @@
+img {
+  max-width: 100%;
+}
 
+@media screen and (max-width:600px) {
+
+  body {
+    font-size: 1.6vw;
+  }
+
+  h1 {
+    font-size: 3.6vw;
+  }
+
+  a {
+    font-size: 5.0vw;
+  }
+
+}
